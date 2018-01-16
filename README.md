@@ -13,6 +13,10 @@ mysql-client
 ## Usage
 
 ## Install
+1. You clone thi repository.
+2. Start the MySQL. `docker-compose up -d`
+3. Run DemoApplication.kt.
+4. Access localhost `http://localhost:8080`
 
 ## Author
 @KirariGlock
