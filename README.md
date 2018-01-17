@@ -19,4 +19,4 @@ mysql-client
 4. Access localhost `http://localhost:8080`
 
 ## Author
-@KirariGlock
+Yoshitaka Kitazawa
