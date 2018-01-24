@@ -9,8 +9,8 @@ import javax.persistence.Table
 @Table(name = "user")
 data class User(
         @Id
-        val id: String,
+        val id: String = "",
 
         @Column(name = "name")
-        val name: String
+        val name: String = ""
 )

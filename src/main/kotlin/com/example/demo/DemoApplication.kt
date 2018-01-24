@@ -9,8 +9,5 @@ import org.springframework.boot.runApplication
 private class DemoApplication
 
 fun main(args: Array<String>) {
-    SpringApplicationBuilder()
-            .sources(DemoApplication::class.java)
-            .web(WebApplicationType.REACTIVE)
-            .run(*args)
+    runApplication<DemoApplication>(*args)
 }
